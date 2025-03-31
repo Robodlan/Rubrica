@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labor Diaria - Escuela Libre de Música</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>GOBIERNO DE PUERTO RICO</h1>
+        <h2>ESCUELA ESPECIALIZADA LIBRE DE MÚSICA ANTONIO PAOLI</h2>
+        <h3>LABOR DIARIA</h3>
+        <img src="logo_de_la_libre.PNG" alt="logo_de_la_libre" />
+      </header>
+
+      <div class="info">
+        <label for="mes">Mes:</label>
+        <input type="text" id="mes" />
+      </div>
+
+      <div class="info">
+        <label for="nombre">Nombre del Estudiante:</label>
+        <input type="text" id="nombre" />
+      </div>
+
+      <div class="info">
+        <label>Estudiante:</label>
+        <input type="checkbox" /> Homeschooler <input type="checkbox" /> Regular
+      </div>
+
+      <div class="info">
+        <label for="instrumento">Instrumento:</label>
+        <input type="text" id="instrumento" value="Bajo || Contrabajo" />
+        <label for="profesor">Profesor(a):</label>
+        <input type="text" id="profesor" value="Reinaldo Robles López" />
+      </div>`
+      <div class="info">
+        <label>Nivel:</label>
+        <input type="checkbox" /> Básico <input type="checkbox" /> Intermedio
+        <input type="checkbox" /> Avanzado
+      </div>
+
+      <div class="info">
+        <label for="puntuacion">Puntuación Mensual:</label>
+        <input type="text" id="puntuacion" />
+      </div>
+
+      <section class="clase">
+        <label>Clase #: <input type="text" /></label>
+        <label>Fecha: <input type="date" /></label>
+
+        <div class="checks">
+          <label><input type="checkbox" /> Precisión Rítmica</label>
+          <label><input type="checkbox" /> Articulación/Técnica</label>
+          <label><input type="checkbox" /> Sonido/Afinación</label>
+          <label><input type="checkbox" /> Escalas Asignadas</label>
+          <label
+            ><input type="checkbox" /> Puntualidad (Cumplimiento del material en
+            la fecha)</label
+          >
+        </div>
+
+        <div class="notas">
+          <label>Ejercicio: <input type="text" /></label>
+          <label>Repertorio: <input type="text" /></label>
+          <label>Asignación: <input type="text" /></label>
+          <label>Observaciones: <input type="text" /></label>
+        </div>
+
+        <label>Nota Examen: <input type="text" /></label>
+        <!-- <label>Firma estudiante: <input type="text" /></label> -->
+      </section>
+
+      <!-- Se pueden duplicar más secciones de clase según sea necesario -->
+    </div>
+    <button id="downloadPDF">Descargar en PDF</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Labor Diaria</title>
+</head>
+<body>
+
+ <div class="container" id="container">
+
+        <div class="header"  id="header">
+            <h1>GOBIERNO DE PUERTO RICO</h1>
+            <img src="logo_de_la_libre.PNG" alt="logo">
+            <h2>ESCUELA ESPECIALIZADA LIBRE DE MUSICA ANTONIO PAOLI</h2>
+            <p>LABOR DIARIA</p>
+            <p>Mes: <hr class="hr"></p>
+        </div>
+       
+
+        <div class="" id="" >
+
+            <div class="encasillado" >
+                <h3>Nombre del Estudiante<hr> </span></h3>
+                 <hr>
+                <h3>Instrumento: <hr></h3>
+                <h3>Profesor: Reinaldo Robles <hr> </h3>
+            </div>
+
+            <div class="info-estudiante">
+                <p>Estudiante: <div class="square"></div> </p>
+                <p>Homeschooler: <div class="square"></div> </p>
+                <p>Nivel:</p>
+                <p><div class="square"></div> Básico</p>
+                <p><div class="square"></div> Intermedio</p>
+                <p><div class="square"></div> Avanzado</p>
+                <p>Puntuación Mensual: <hr></p>     
+            </div>
+                               
+        </div>
+
+ </div>
+
+</body>
+</html> -->

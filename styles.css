@@ -1,0 +1,86 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.square {
+  padding: px;
+  margin: 2px;
+  border: 1px solid black;
+} */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 5px;
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 200px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.clase {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.checks {
+  display: flex;
+  flex-direction: column;
+}
+
+.notas {
+  display: flex;
+  flex-direction: column;
+}
+
+.notas label,
+.checks label {
+  margin-top: 5px;
+}
