@@ -15,6 +15,112 @@
         <img src="logo_de_la_libre.PNG" alt="logo_de_la_libre" />
       </header>
 
+      <table>
+        <thead>
+          <tr>
+            <th>Criterio</th>
+            <th>Excelente (4)</th>
+            <th>Bueno (3)</th>
+            <th>Aceptable (2)</th>
+            <th>Necesita Mejora (1)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Técnica de ejecución</td>
+            <td>
+              Ejecución fluida, precisa y clara. Posición y agarre correctos.
+            </td>
+            <td>
+              Buena ejecución, pero con ligeros errores o falta de fluidez.
+            </td>
+            <td>
+              Ejecución con algunos errores técnicos evidentes, postura
+              inadecuada.
+            </td>
+            <td>
+              Errores frecuentes, técnica deficiente, y mala postura al tocar.
+            </td>
+          </tr>
+          <tr>
+            <td>Ritmo y compás</td>
+            <td>
+              Mantiene un ritmo constante y adecuado durante toda la pieza.
+            </td>
+            <td>
+              Ritmo generalmente constante, pero con pequeñas irregularidades.
+            </td>
+            <td>
+              Dificultad para mantener el ritmo, a menudo fuera de compás.
+            </td>
+            <td>No puede mantener un ritmo constante ni seguir el compás.</td>
+          </tr>
+          <!--  -->
+          <tr>
+            <td>Conocimiento de notas</td>
+            <td>Conoce y utiliza correctamente las notas en el mástil.</td>
+            <td>Conoce la mayoría de las notas pero algunas se confunden.</td>
+            <td>
+              Conoce algunas notas, pero tiene dificultades para ubicarlas.
+            </td>
+            <td>Conoce muy pocas notas, usa el mástil de manera imprecisa.</td>
+          </tr>
+          <tr>
+            <td>Lectura de partituras</td>
+            <td>Lee partituras con fluidez y sin errores.</td>
+            <td>
+              Lee partituras con algunos errores, pero entiende lo básico.
+            </td>
+            <td>Lee partituras con dificultad, comete errores frecuentes.</td>
+            <td>Tiene dificultades significativas para leer partituras.</td>
+          </tr>
+          
+            <td>Escucha y adaptación</td>
+            <td>Escucha activamente la música y se adapta perfectamente.</td>
+            <td>
+              Se adapta correctamente a la música en la mayoría de los casos.
+            </td>
+            <td>Dificultades para adaptarse a la música y la estructura.</td>
+            <td>
+              No escucha ni se adapta a la música, no sigue la estructura.
+            </td>
+          </tr>
+          <tr>
+            <td>Compromiso y actitud</td>
+            <td>Demuestra gran dedicación y entusiasmo en la práctica.</td>
+            <td>Buen nivel de compromiso, con algo de inconsistencia.</td>
+            <td>
+              A veces se muestra desinteresado y no practica regularmente.
+            </td>
+            <td>
+              Falta de compromiso, no muestra interés ni realiza prácticas.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer">
+        <h2>Puntajes:</h2>
+        <ul>
+          <li>
+            <strong>32-28 puntos:</strong> Excelente – Nivel avanzado en la
+            ejecución básica del bajo eléctrico.
+          </li>
+          <li>
+            <strong>27-24 puntos:</strong> Bueno – Se desempeña bien, pero
+            necesita mejorar ciertos aspectos.
+          </li>
+          <li>
+            <strong>23-18 puntos:</strong> Aceptable – Progreso, pero se
+            requiere mayor práctica y concentración en aspectos técnicos.
+          </li>
+          <li>
+            <strong>17-12 puntos:</strong> Necesita Mejora – Aún no ha alcanzado
+            el nivel básico de ejecución y necesita un enfoque más consistente
+            en la práctica.
+          </li>
+        </ul>
+      </div>
+
       <div class="info">
         <label for="mes">Mes:</label>
         <input type="text" id="mes" />
@@ -35,7 +141,8 @@
         <input type="text" id="instrumento" value="Bajo || Contrabajo" />
         <label for="profesor">Profesor(a):</label>
         <input type="text" id="profesor" value="Reinaldo Robles López" />
-      </div>`
+      </div>
+      `
       <div class="info">
         <label>Nivel:</label>
         <input type="checkbox" /> Básico <input type="checkbox" /> Intermedio
@@ -52,12 +159,12 @@
         <label>Fecha: <input type="date" /></label>
 
         <div class="checks">
-          <label><input type="checkbox" /> Precisión Rítmica</label>
-          <label><input type="checkbox" /> Articulación/Técnica</label>
-          <label><input type="checkbox" /> Sonido/Afinación</label>
-          <label><input type="checkbox" /> Escalas Asignadas</label>
+          <label><input type="number" /> Precisión Rítmica</label>
+          <label><input type="number" /> Articulación/Técnica</label>
+          <label><input type="number" /> Sonido/Afinación</label>
+          <label><input type="number" /> Escalas Asignadas</label>
           <label
-            ><input type="checkbox" /> Puntualidad (Cumplimiento del material en
+            ><input type="number" /> Puntualidad (Cumplimiento del material en
             la fecha)</label
           >
         </div>

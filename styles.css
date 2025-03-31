@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  background: white;
+  /* background: white; */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -83,4 +83,43 @@ input[type="checkbox"] {
 .notas label,
 .checks label {
   margin-top: 5px;
+}
+
+/* table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #2a2a2a;
+  /* background-color: #fff; */
+}
+
+td {
+  background-color: #222;
+}
+
+tr:hover {
+  background-color: #3a3a3a;
+}
+
+tfoot td {
+  text-align: center;
+  font-weight: bold;
 }
